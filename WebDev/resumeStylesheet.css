@@ -1,0 +1,460 @@
+/*Body Header*/
+body{
+    margin: 0px;
+}
+
+#body-header{
+    height: 70vh;
+    width: 100vw;
+    opacity: 0.95;
+    background-image: url(work_desk_blur1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1px;
+}
+
+/*word spacing*/
+.spacing{
+    word-spacing: 100px;
+}
+
+/*Navigation Bar*/
+#navigation{
+    list-style: none;
+    text-align: center;
+}
+
+#navigation li{
+    display: inline-block;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: ease-in-out 0.2s;
+    font-size: 17px;
+    letter-spacing: 0.70px;
+}
+
+#navigation li a:hover{
+    color:chocolate;
+    border-bottom: 2px solid chocolate;
+    text-shadow: 0px 0px 25px chocolate;
+}
+
+/*name section*/
+#my-name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 32vh;
+    letter-spacing: 16px;
+    text-shadow: 1px 1px 20px antiquewhite;
+}
+
+/*social media icons section*/
+#social-media{
+    list-style: none;
+    text-align: center;
+    word-spacing: 85px;
+    margin-top: -0.5%;
+}
+
+#social-media li{
+    display: inline-block;
+}
+
+#social-media li a{
+    text-decoration: none;
+    color: chocolate;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px darkred;
+    transition: ease-in-out 0.2s;
+}
+
+#social-media li a:hover{
+    text-shadow: 0px 0px 25px coral;
+}
+
+.intro-of-page{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    font-size: 22px;
+    line-height: 55px;
+    word-spacing: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-color: sienna;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+}
+
+/*image section
+#image{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#my-image{
+    margin: auto;
+    margin-top: -12vh;
+    height: 250px;
+    width: 250px;
+}
+
+#my-image img{
+    height: 100%;
+    width: 92%;
+    box-shadow: 0px 0px 5px 1px white;
+}*/
+
+/*vertical-lines*/
+.vertical-line{
+    border-left: 2px solid darkslategray;
+    height: 150px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.short-vert-line{
+    border-left: 2px solid darkslategray;
+    height: 30px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/*header-icons*/
+.header-icons{
+    color: sienna;
+    font-size: 50px;
+}
+
+/*profile section*/
+.profile-sec{
+    font-size: 18px;
+    color: slategray;
+    line-height: 23px;
+}
+
+/*div tags*/
+.div-box{
+    height: auto;
+    width: auto;
+    border-radius: 50px 20px;
+    border-color: grey;
+    border-style: solid;
+    border-width: thin;
+    padding: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:whitesmoke;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%), 0 15px 20px 0 rgb(0 0 0 / 19%)
+}
+
+.div-header{
+    margin-left: 125px;
+    margin-top: 150px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: sienna;
+    font-weight: lighter;
+    border-left: 2px;
+    border-color: sienna;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-left: 20px;
+}
+
+.div-header:hover{
+    color: saddlebrown;
+    border-color: saddlebrown;
+}
+
+/*education section*/
+.institute{
+    font-size: 25px;
+    color:darkslategray;
+    margin-bottom: 5px;
+}
+
+.year{
+    font-size: 12px;
+    color:darkslategray;
+    margin-bottom: 25px;
+}
+
+.achievments{
+    font-size: 15px;
+    color: slategray;
+    line-height: 23px;
+}
+
+/*skills section*/
+.skill-header{
+    font-size: 25px;
+    color:darkslategray;
+    margin-bottom: 5px;
+}
+
+.skill-body{
+    font-size: 20spx;
+    color: slategray;
+    line-height: 23px;
+    word-spacing: 25px;
+    margin-bottom: 10px;
+}
+
+/*flex-container*/
+.flex-container{
+    left: 50%;
+    height: auto;
+    width: 50vw;
+    /*border-color: grey;
+    border-style: solid;
+    border-width: thin;*/
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div{
+    height: 200px;
+    width: 200px;
+}
+
+/*div card*/
+.div-card{
+    background-color: whitesmoke;
+    border: grey;
+    border-radius: 5px 5px;
+    border-width: thin;
+    border-style: solid;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 15px 20px 0 rgb(0 0 0 / 10%);
+    text-align: center;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    transition: ease-in-out 0.2s;
+}
+
+.div-card:hover{
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 50%), 0 15px 20px 0 rgb(0 0 0 / 50%);
+}
+
+/*works section*/
+.works-icon{
+    text-align: center;
+    color: darkslategray;
+    font-size: 100px;
+}
+
+.works-title{
+    text-align: center;
+    color: darkslategray;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*contact*/
+#contact-container{
+    height: 350px;
+    width: 100vw;
+    border-color: grey;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to top right, rgb(255, 125, 125), rgb(100, 0, 0));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    
+}
+
+.contact-flex-card-1{
+    height: 300px;
+    width: 50vw;
+    background-color: transparent;
+    /*border: white;
+    border-width: thin;
+    border-style: solid;*/
+    text-align: left;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 92px;
+}
+
+.contact-flex-card-2{
+    height: 150px;
+    width: 25vw;
+    /*background-color: transparent;
+    border: white;
+    border-width: thin;
+    border-style: solid;*/
+    text-align: left;
+    padding: 25px;
+    margin-right: -25px;
+}
+
+.contact-flex-card-3{
+    height:95px;
+    width: 25vw;
+    /*background-color: transparent;
+    border: white;
+    border-width: thin;
+    border-style: solid;*/
+    text-align: left;
+    padding: 25px;
+    margin-right: -25px;
+}
+
+.contact-flex-header{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.contact-header-icons{
+    color: white;
+    font-size: 25px;
+}
+
+/*contact us*/
+.no-outline:focus{
+    outline: none;
+}
+
+.form-header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 10px;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  ::placeholder{
+      color: white;
+      opacity: 1;
+  }
+
+.button {
+    background-color: white;
+    border: crimson;
+    border-width: 2px;
+    border-style: solid;
+    color: crimson;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition: ease-in-out 0.4s;
+    height: 25px;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.3), 0 17px 50px 0 rgba(255,255,255,0.3);
+}
+
+.button:hover{
+    color: white;
+    background-color: crimson;
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.5), 0 17px 50px 0 rgba(255,255,255,0.5);
+}
+
+.send-button{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+/*mailing address*/
+.address{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+    margin-top: -20px;
+    line-height: 23px;
+}
+
+/*footer social icons*/
+#footer-icons{
+    list-style: none;
+    text-align: left;
+    word-spacing: 35px;
+    margin-left: -30px;
+}
+
+#footer-icons li{
+    display: inline-block;
+}
+
+#footer-icons li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 25px white;
+    transition: ease-in-out 0.2s;
+}
+
+#footer-icons li a:hover{
+    color: whitesmoke;
+    text-shadow: 1px 1px 50px whitesmoke;
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 75px;
+}

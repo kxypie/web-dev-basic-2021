@@ -1,0 +1,291 @@
+.button {
+  background-color:#00acee; /*twitter cyan shade*/
+  border: none;
+  color: white;
+  padding: 1px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#top{
+  color:crimson;
+  text-align: center;
+}
+
+#survey-mail{
+  line-height: 24px;
+}
+
+.subscribe-button{
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.subscribe-button:hover{
+  background-color: black; 
+  color: white;
+}
+
+.button1 {
+  background-color: white; 
+  color: grey; 
+  border: 2px solid grey;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.button1:hover {
+  background-color: grey;
+  color: white;
+}
+
+.mail {
+  background-color: white; 
+  color:crimson; 
+  border: 2px solid crimson;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.mail:hover {
+  background-color: crimson;
+  color: white;
+}
+
+#box1 {
+    border: 0px groove;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:whitesmoke;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+
+#commentsection{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  size: 3;
+  color: grey;
+  text-align: center;
+  width: 75%;
+  display: inline-block;
+}
+
+aside{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  size: 3;
+  color: grey;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 27.5px;
+}
+
+#introduction{
+  line-height: 24px;
+  border-left: 3.5px solid crimson;
+  border-right: 3.5px solid crimson;
+
+  margin-left: 210px;
+  margin-right: 210px;
+
+  text-align: center;
+  font-family: Verdana;
+  font-size: 3;
+  color: slategray;
+}
+
+#newsletter:after{
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 80%; /* Change this to whatever width you want. */
+  padding-top: 7px; /* This creates some space between the element and the border. */
+  border-bottom: 2px solid crimson;
+}
+
+#newsletter:before{
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 95%; /* Change this to whatever width you want. */
+  padding-bottom: 25px; /* This creates some space between the element and the border. */
+  border-top: 2px solid crimson;
+}
+
+#hollywood{
+  text-align: center; 
+  font-size: 30px; 
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#english{
+  text-align: center; 
+  font-size: 30px; 
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#french{
+  text-align: center; 
+  font-size: 30px; 
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#bollywood{
+  text-align: center; 
+  font-size: 30px; 
+  font-family: Brush Script MT, Brush Script Std, cursive; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#hollo{
+  line-height: 24px;
+  color: slategray;
+}
+
+#anglo{
+  line-height: 24px;
+  color: slategray;
+}
+
+#franco{
+  line-height: 24px;
+  color: slategray;
+}
+
+#bollo{
+  line-height: 24px;
+  color: slategray;
+}
+
+.holly {
+  background-color: white; 
+  color:darkorchid; 
+  border: 2px solid darkorchid;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.holly:hover {
+  background-color: darkorchid;
+  color: white;
+}
+
+.eng {
+  background-color: white; 
+  color:mediumslateblue; 
+  border: 2px solid mediumslateblue;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.eng:hover {
+  background-color: mediumslateblue;
+  color: white;
+}
+
+.fre {
+  background-color: white; 
+  color:forestgreen; 
+  border: 2px solid forestgreen;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.fre:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.bolly {
+  background-color: white; 
+  color:firebrick; 
+  border: 2px solid firebrick;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.bolly:hover {
+  background-color: firebrick;
+  color: white;
+}
+
+#home{
+    color:violet;
+}
+
+#home:hover{
+    color:darkviolet;
+}
+
+#about{
+    color:slateblue;
+}
+
+#about:hover{
+    color:darkslateblue;
+}
+
+#info{
+    color:lightseagreen;
+}
+
+#info:hover{
+    color:seagreen;
+}
+
+#contact{
+    color:springgreen;
+}
+
+#contact:hover{
+    color:forestgreen;
+}
+
+#gallery{
+    color:salmon;
+}
+
+#gallery:hover{
+    color:crimson;
+}
+
+#posters{
+    color:tomato;
+}
+
+#posters:hover{
+    color:indianred;
+}
+
+#survey{
+    color:turquoise;
+}
+
+#survey:hover{
+    color:#37b6a9;
+}
+
+#back-on-top{
+    color:#00acee;
+}
+
+#back-on-top:hover{
+    color:#007fb0;
+}
